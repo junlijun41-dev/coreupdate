@@ -36,4 +36,4 @@ EOF
 
 
 yum install -y kmod-wireguard wireguard-tools
-
+cd /tmp # 下载主 kernel-ml 6.3.5 wget https://mirrors.piconets.webwerks.in/elrepo-mirror/kernel/el7/x86_64/RPMS/kernel-ml-6.3.5-1.el7.elrepo.x86_64.rpm # 下载对应的 devel 包 wget https://mirrors.piconets.webwerks.in/elrepo-mirror/kernel/el7/x86_64/RPMS/kernel-ml-devel-6.3.5-1.el7.elrepo.x86_64.rpm
