@@ -37,3 +37,12 @@ EOF
 
 yum install -y kmod-wireguard wireguard-tools
 
+
+yum install -y kmod-wireguard wireguard-tools
+然后加载内核模块：
+
+bash
+复制代码
+modprobe wireguard
+lsmod | grep wireguard
+
